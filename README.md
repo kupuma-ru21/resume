@@ -45,8 +45,6 @@ react.js, next.js, react-router, react-datepicker, react-dnd, react-i18next, sty
 - WEB & MOBILE APP DEVELOPMENT DIPLOMA
     - Cornerstone International College, Vancouver (May 2024 -)
 
----
-
 - BACHELOR OF ENGINEERING
     - Takushoku University, Tokyo (Apr 2015 - Mar 2019)
 
