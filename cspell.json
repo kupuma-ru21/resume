@@ -11,6 +11,9 @@
         "Vuex",
         "Vuetify",
         "BUYSELL",
-        "Takushoku"
+        "Takushoku",
+        "formik",
+        "immer",
+        "typesafe"
     ]
 }
