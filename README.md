@@ -13,9 +13,9 @@ I'm strongly interested in maintainability of source codes and design patterns.
 react.js, next.js, react-router, react-datepicker, react-dnd, react-i18next, styled-components, material-ui, react-hook-form, zod, yup, react-testing-library, jest, vitest, vue.js, vue-router, vuex, vuetify, vee-validate, storybook, graphql, graphql-codegen, apollo/client, golang, sqlboiler, esLint, prettier, echarts, koa, axios, joi, lodash, pnpm, yarn, git, slack, jira, figma
 
 ## CAREER HISTORY
-### FRONTEND AND BACKEND ENGINEER
+### Frontend and Backend Developer
 
-#### BUYSELL TECHNOLOGIES | Feb 2023 - Dec 2023 | Tokyo
+#### BUYSELL TECHNOLOGIES | Feb 2023 - Dec 2023 | Tokyo, Japan(Remote)
 
 - Selected and introduced some libs.
 - Observed errors notifications from sentry and fixed them.
@@ -23,8 +23,8 @@ react.js, next.js, react-router, react-datepicker, react-dnd, react-i18next, sty
 
 ---
 
-### FRONTEND ENGINEER
-#### VISITS TECHNOLOGIES | May 2021 - Feb 2023 | Tokyo
+### Frontend Developer
+#### VISITS TECHNOLOGIES | May 2021 - Feb 2023 | Tokyo, Japan(Remote)
 
 - Improved developer experiences by installing eslint prettier etc.
 - Reviewed pull requests from my coworkers.
@@ -33,8 +33,8 @@ react.js, next.js, react-router, react-datepicker, react-dnd, react-i18next, sty
 
 ---
 
-### FRONTEND ENGINEER
-#### Gizmo inc. | Sep 2019 - May 2021 | Tokyo
+### Frontend Developer
+#### Gizmo inc. | Sep 2019 - May 2021 | Tokyo, Japan
 
 - Created UI and business logic for logistics web application used by SoftBank with Vue.js.
 - Created UI and business logic for internet bank web application released by SONY with React.js.
@@ -46,7 +46,7 @@ react.js, next.js, react-router, react-datepicker, react-dnd, react-i18next, sty
     - Cornerstone International College, Vancouver (May 2024 -)
 
 - BACHELOR OF ENGINEERING
-    - Takushoku University, Tokyo (Apr 2015 - Mar 2019)
+    - Takushoku University, Tokyo, Japan (Apr 2015 - Mar 2019)
 
 ## LANGUAGES
 - English - Upper-intermediate
