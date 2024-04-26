@@ -1,18 +1,18 @@
-## 木村 浩一
+# 木村 浩一
 
-### フロントエンド エンジニア
+## フロントエンド エンジニア
 
 - GitHub: [https://github.com/kupuma-ru21](https://github.com/kupuma-ru21)
 - LinkedIn: [https://www.linkedin.com/in/koichi-kimura-06ba14259/](https://www.linkedin.com/in/koichi-kimura-06ba14259/)
 
-### プロフィール
+## プロフィール
 
 ソフトウェアエンジニアとして 4 年間の経験があります。
 React Sever Component を実務で使うことに関心を持っています。
 
-### 職務経歴
+## 職務経歴
 
-### フロントエンド・バックエンド エンジニア (Furontendo・Bakkuendo Deburōpā)
+### フロントエンド・バックエンド エンジニア
 
 #### Buysell Technologies | 2023 年 2 月 - 2023 年 12 月 | 東京, 日本 (リモート)
 
