@@ -8,9 +8,24 @@
 ## プロフィール
 
 ソフトウェアエンジニアとして 4 年間の経験があります。
-React Sever Component を実務で使うことに関心を持っています。
+フロントエンドにおいては、React Sever Component周りの知見について深めていきたいです。
+また、インフラ周りに興味を持っており、現在AWSを使って[WordPressサイト](http://aws-and-infra-kupu.com/)の配信を試したりしてます。
 
 ## 職務経歴
+
+### フロントエンド エンジニア
+
+#### Buysell Technologies | 2023 年 2 月 - 2023 年 12 月 | 東京, 日本 (リモート)
+
+- ライブラリを選択・導入
+- Sentry から通知されるエラーを確認・修正
+- Golang で GraphQL のリゾルバーを作成
+
+##### 使用技術
+
+react.js, next.js, storybook, graphql, graphql-codegen, apollo/client, material-ui, react-hook-form, zod, vitest, esLint, prettier, pnpm, git, slack, jira, figma, golang, sqlboiler
+
+---
 
 ### フロントエンド・バックエンド エンジニア
 
