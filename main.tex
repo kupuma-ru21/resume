@@ -1,0 +1,179 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\large{
+    {#1 \vspace{0pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Koichi Kimura} \\ \vspace{1pt}
+    \textbf{\Large \scshape Frontend React Developer} \\
+    % 電話番号とアドレス。応募先が居住国外ならなら国際番号(例: +1)も入れるか電話番号は消してしまう
+    \large 236 308-2236 $|$ Vancouver, Canada
+\end{center}
+
+\begin{center}
+% Emailをhrefとunderline内に
+    \href{mailto:Insert your email}{\underline{tech.kupumaru@gmail.com}} $|$ 
+% LinkedInのリンク
+    \href{https://www.linkedin.com/in/koichi-kimura-06ba14259/}{\underline{linkedin.com/in/koichi-kimura-06ba14259}} $|$
+% Githubのリンク
+    \href{https://github.com/kupuma-ru21}{\underline{https://github.com/kupuma-ru21}}
+\end{center}
+
+\section{About}
+Software Engineer with 4 years of experience and a love of learning new skills.
+My strong suits are Typescript, React, Next.js.
+I've used Typescript and React for about four years, and Next.js for about two years.
+I've already used App router by Next.js at work.
+I'm strongly interested in maintainability of source codes and design patterns.
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Frontend and Backend Developer}{Feb 2023 - Dec 2023}
+      {BUYSELL TECHNOLOGIES}{Tokyo, Japan(Remote}
+      \resumeItemListStart
+        \resumeItem{Selected and introduced some libs.}
+        \resumeItem{Observed errors notifications from sentry and fixed them.}
+        \resumeItem{Created resolver of graphql with golang.}
+      \resumeItemListEnd
+      {Used Technologies: react.js, next.js, storybook, graphql, graphql-codegen, apollo/client, material-ui, react-hook-form, zod, vitest, esLint, prettier, pnpm, git, slack, jira, figma, golang, sqlboiler}
+
+    \resumeSubheading
+      {Frontend Developer}{May 2021 - Feb 2023}
+      {VISITS TECHNOLOGIES}{Tokyo, Japan(Remote}
+      \resumeItemListStart
+        \resumeItem{Improved developer experiences by installing eslint prettier etc.}
+        \resumeItem{Reviewed pull requests from my coworkers.}
+        \resumeItem{Created test codes with jest and react-testing-library}
+        \resumeItem{Updated React v17 to v18.}
+    \resumeItemListEnd
+      {Used Technologies: react.js, react-router, react-datepicker, react-dnd, react-i18next, react-testing-library, graphql, graphql-codegen, apollo/client, styled-components, react-hook-form, yup, react-i18next, jest, echarts, koa, esLint, prettier, yarn, git, slack, jira, figma}
+      
+    \resumeSubheading
+      {Frontend Developer}{Sep 2019 - May 2021}
+      {Gizmo inc.}{Tokyo, Japan}
+      \resumeItemListStart
+        \resumeItem{Created UI and business logic for logistics web application used by SoftBank with Vue.js.}
+        \resumeItem{Created UI and business logic for internet bank web application released by SONY with React.js.}
+        \resumeItem{Technically supported my coworkers.}
+      \resumeItemListEnd
+      {Used Technologies: react.js, redux, react-redux, reselect, styled-components, next.js, formik, yup, react-i18next, @adobe/target-react-component, axios, immer, ramda, redux-logger, redux-saga, typesafe-actions, dotenv-webpack, prism, jest, eslint, yarn, git, gitlab, aws, codecommit, sourcetree, slack, adobe xd, vue.js, vue router, vuex, vuetify, axios, joi, lodash, veeValidate, github}
+      
+  \resumeSubHeadingListEnd
+
+%
+%-----------SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: TypeScript, JavaScript, HTML/CSS, React, Vue, Golang} \\
+     \textbf{Frameworks}{: React (library), Next.js, Storybook} \\
+     \textbf{Developer Tools}{: Git, Docker, Github Actions} \\
+    }}
+ \end{itemize}
+
+ %-----------Education-----------
+\section{Education}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Bachelor of engineering}{: Takushoku University, Tokyo, Japan (Apr 2015 - Mar 2019)} \\
+     \textbf{Web development diploma}{: Cornerstone International College, Vancouver (May 2024 -)} \\
+    }}
+ \end{itemize}
+
+ %-----------LANGUAGES-----------
+\section{LANGUAGES}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{English - Upper-intermediate} \\
+     \textbf{Japanese - Native} \\
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
