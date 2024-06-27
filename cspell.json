@@ -1,19 +1,27 @@
 {
-    "version": "0.2",
-    "language": "en",
-    "words": [
-        "Koichi",
-        "Kimura",
-        "codegen",
-        "sqlboiler",
-        "datepicker",
-        "echarts",
-        "Vuex",
-        "Vuetify",
-        "BUYSELL",
-        "Takushoku",
-        "formik",
-        "immer",
-        "typesafe"
-    ]
+  "version": "0.2",
+  "language": "en",
+  "words": [
+    "axios",
+    "BUYSELL",
+    "chakra",
+    "codegen",
+    "datepicker",
+    "dndkit",
+    "dotenv",
+    "echarts",
+    "formik",
+    "immer",
+    "Kimura",
+    "Koichi",
+    "ramda",
+    "SORAJIMA",
+    "sqlboiler",
+    "Takushoku",
+    "typesafe",
+    "urql",
+    "vitest",
+    "Vuetify",
+    "Vuex"
+  ]
 }
