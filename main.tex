@@ -1,204 +1,72 @@
-\documentclass[letterpaper,11pt]{article}
-
-\usepackage{latexsym}
-\usepackage[empty]{fullpage}
-\usepackage{titlesec}
-\usepackage{marvosym}
-\usepackage[usenames,dvipsnames]{color}
-\usepackage{verbatim}
+\documentclass{article}
+\usepackage{geometry}
+\geometry{a4paper, margin=1in}
+\usepackage{hyperref}
 \usepackage{enumitem}
 
-\usepackage[hidelinks]{hyperref}
-\usepackage{fancyhdr}
-\usepackage[english]{babel}
-\usepackage{tabularx}
-\input{glyphtounicode}
-
-\pagestyle{fancy}
-\fancyhf{} % clear all header and footer fields
-\fancyfoot{}
-\renewcommand{\headrulewidth}{0pt}
-\renewcommand{\footrulewidth}{0pt}
-
-% Adjust margins
-\addtolength{\oddsidemargin}{-0.5in}
-\addtolength{\evensidemargin}{-0.5in}
-\addtolength{\textwidth}{1in}
-\addtolength{\topmargin}{-.5in}
-\addtolength{\textheight}{1.0in}
-
-\urlstyle{same}
-
-\raggedbottom
-\raggedright
-\setlength{\tabcolsep}{0in}
-
-% Sections formatting
-\titleformat{\section}{
-  \vspace{-4pt}\scshape\raggedright\large
-}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
-
-% Ensure that generate pdf is machine readable/ATS parsable
-\pdfgentounicode=1
-
-%-------------------------
-% Custom commands
-\newcommand{\resumeItem}[1]{
-  \item\large{
-    {#1 \vspace{0pt}}
-  }
-}
-
-\newcommand{\resumeSubheading}[4]{
-  \vspace{-2pt}\item
-    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
-      \textbf{#1} & #2 \\
-      \textit{\small#3} & \textit{\small #4} \\
-    \end{tabular*}\vspace{-7pt}
-}
-
-\newcommand{\resumeSubSubheading}[2]{
-    \item
-    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \textit{\small#1} & \textit{\small #2} \\
-    \end{tabular*}\vspace{-7pt}
-}
-
-\newcommand{\resumeProjectHeading}[2]{
-    \item
-    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \small#1 & #2 \\
-    \end{tabular*}\vspace{-7pt}
-}
-
-\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
-
-\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
-
-\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
-\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
-\newcommand{\resumeItemListStart}{\begin{itemize}}
-\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
-
-%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\title{Koichi Kimura - Frontend React Developer}
+\date{}
 
 \begin{document}
 
-%----------HEADING----------
-\begin{center}
-    \textbf{\Huge \scshape Koichi Kimura} \\ \vspace{1pt}
-    \textbf{\Large \scshape Frontend React Developer} \\
-    % 電話番号とアドレス。応募先が居住国外ならなら国際番号(例: +1)も入れるか電話番号は消してしまう
-    \large 236 308-2236 $|$ Vancouver, Canada
-\end{center}
+\maketitle
 
 \begin{center}
-% Emailをhrefとunderline内に
-    \href{mailto:Insert your email}{\underline{tech.kupumaru@gmail.com}} $|$ 
-% LinkedInのリンク
-    \href{https://www.linkedin.com/in/koichi-kimura-06ba14259/}{\underline{linkedin.com/in/koichi-kimura-06ba14259}} $|$
-% Githubのリンク
-    \href{https://github.com/kupuma-ru21}{\underline{https://github.com/kupuma-ru21}}
++1 (236) 308-2236 / Vancouver, Canada \\
+\href{mailto:tech.kupumaru@gmail.com}{tech.kupumaru@gmail.com} /
+\href{https://www.linkedin.com/in/koichi-kimura-06ba14259}{linkedin.com/in/koichi-kimura-06ba14259} /
+\href{https://github.com/kupuma-ru21}{github.com/kupuma-ru21}
 \end{center}
 
-\section{About}
-Software Engineer with 4 years of experience and a love of learning new skills.
-My strong suits are Typescript, React, Next.js.
-I've used Typescript and React for about four years, and Next.js for about two years.
-I've already used App router by Next.js at work.
-I'm strongly interested in maintainability of source codes and design patterns.
+\section*{About}
+Highly skilled professional with over 4 years of experience in software development, specializing in TypeScript, React, and Next.js. Adept at creating robust, scalable web applications, with a proven ability to deliver high-quality, user-centric solutions. Strong interest in maintainability of source codes and design patterns.
 
-%-----------EXPERIENCE-----------
-\section{Experience}
-  \resumeSubHeadingListStart
+\section*{Experience}
 
-  \resumeSubheading
-    {Frontend Developer}{May 2024 - Now}
-    {SORAJIMA}{Tokyo, Japan(Remote}
-    \begin{itemize}
-      \resumeItem{Selected and introduced a lib into a project.}
-      \begin{itemize}
-        \item {The project needed drag and drop feature so I decided to adopt dndkit. I considered react-dnd, react-beautiful-dnd and so on but most of them had some issues related to react 18 except dndkit. That's why I choose dndkit.}
-      \end{itemize}
-      \resumeItem{Improved developer experience.}
-      \begin{itemize}
-        \item {The project originally didn't have tsc check in CI. I added it and made the project more maintainable.}
-      \end{itemize}
-    \end{itemize}
-    {Tech stack: react.js, next.js, chakra-ui, storybook, graphql, graphql-codegen, urql, react-hook-form, zod, esLint, prettier, pnpm, git, slack, jira, figma, golang}
+\subsection*{Frontend Developer – SORAJIMA - Tokyo, Japan (Remote)}
+\textit{May 2024 - Present}
+\begin{itemize}[leftmargin=*, itemsep=0pt]
+    \item Selected and introduced a dndkit library to one of the projects, which needed drag and drop feature.
+    \item Improved developer experience and project maintainability by adding tsc check in CI, meaning GitHub actions.
+    \item Responsible for developing front-end for multiple projects simultaneously, keeping in touch with the rest of the development team to meet deadlines and accomplish the best quality.
+    \item As part of the main tasks, I develop user interface, and responsible for APIs.
+\end{itemize}
+Tech stack: React.js, Next.js, Chakra-UI, Storybook, GraphQL, GraphQL-Codegen, URQL, React-Hook-Form, Zod, ESLint, Prettier, PNPM, Git, Slack, Jira, Figma, Golang
 
-  \resumeSubheading
-      {Frontend and Backend Developer}{Feb 2023 - Dec 2023}
-      {BUYSELL TECHNOLOGIES}{Tokyo, Japan(Remote}
-      \begin{itemize}
-        \resumeItem{Selected and introduced a lib into a project.}
-        \begin{itemize}
-          \item {The project originally used day.js, but I introduced date-fns because day.js caused a severe performance issue in a certain situation. Reasons to decided date-fns are that it was developed by Typescript and regularly maintained and installed by many developers compared to other date format libs.}
-        \end{itemize}
-        \resumeItem{Reviewed pull requests from all frontend developers.}
-        \begin{itemize}
-          \item {I was aware of making them avoid hasty abstractions like logical cohesion.}
-        \end{itemize}
-        \resumeItem{Created resolver of graphql with golang.}
-        \begin{itemize}
-          \item {To smoothly communicate with backend developers as a frontend developer, I was engaged in development of backend.}
-        \end{itemize}
-      \end{itemize}
-      {Tech stack: react.js, next.js, storybook, graphql, graphql-codegen, apollo/client, material-ui, react-hook-form, zod, vitest, esLint, prettier, pnpm, git, slack, jira, figma, golang, sqlboiler}
+\subsection*{Full Stack Developer – BUYSELL TECHNOLOGIES - Tokyo, Japan (Remote)}
+\textit{Feb 2023 - Dec 2023}
+\begin{itemize}[leftmargin=*, itemsep=0pt]
+    \item Selected and introduced a date-fns library into one of our projects to fix performance issues. This action caused a positive impact to the project, since it was developed by Typescript, regularly maintained and very popular compared to other date format libs.
+    \item Created API using Graphql with Golang, to smoothly communicate with backend developers.
+    \item Mentored Junior developers, supporting them in the day to day through training and guidance, also reviewing their code and performance.
+\end{itemize}
+Tech stack: React.js, Next.js, Storybook, GraphQL, GraphQL-Codegen, Apollo/Client, Material-UI, React-Hook-Form, Zod, Vitest, ESLint, Prettier, PNPM, Git, Slack, Jira, Figma, Golang, SQLBoiler
 
-    \resumeSubheading
-      {Frontend Developer}{May 2021 - Feb 2023}
-      {VISITS TECHNOLOGIES}{Tokyo, Japan(Remote}
-      \begin{itemize}
-        \resumeItem{Improved developer experiences by installing eslint prettier etc.}
-        \begin{itemize}
-          \item {I joined a project after the project just started, so there were no lint tools. I installed them and made the project more maintainable.}
-        \end{itemize}
-        \resumeItem{Reviewed pull requests from my coworkers.}
-        \begin{itemize}
-          \item {I was aware of making them to reduce time complexity and write semantic jsx.}
-        \end{itemize}
-        \resumeItem{Created test codes with jest and react-testing-library}
-        \begin{itemize}
-          \item {After I wrote application source codes, I wrote test source codes to improve quality of the project.}
-        \end{itemize}
-        \resumeItem{Updated React v17 to v18.}
-        \begin{itemize}
-          \item {It took me a week to update React v17 to v18. I managed to update many libraries and fix many bugs because of the updating.}
-        \end{itemize}
-      \end{itemize}
-      {Tech stack: react.js, react-router, react-datepicker, react-dnd, react-i18next, react-testing-library, graphql, graphql-codegen, apollo/client, styled-components, react-hook-form, yup, react-i18next, jest, echarts, koa, esLint, prettier, yarn, git, slack, jira, figma}
+\subsection*{Frontend Developer – VISITS TECHNOLOGIES - Tokyo, Japan (Remote)}
+\textit{May 2021 - Feb 2023}
+\begin{itemize}[leftmargin=*, itemsep=0pt]
+    \item Improved developer experience by installing eslint prettier, which increased the project maintainability.
+    \item Responsible for pull request review, to guarantee that time complexity was reduced, and keeping semantic writing (jsx).
+    \item Created test codes with jest and react-testing-library, which improved quality of the project.
+    \item Updated React v17 to v18 within a week, and managed to update many libraries and fixed several bugs cause by the update.
+\end{itemize}
+Tech stack: React.js, React-Router, React-Datepicker, React-DND, React-i18next, React-Testing-Library, GraphQL, GraphQL-Codegen, Apollo/Client, Styled-Components, React-Hook-Form, Yup, React-i18next, Jest, ECharts, Koa, ESLint, Prettier, Yarn, Git, Slack, Jira, Figma
 
-    \resumeSubheading
-      {Frontend Developer}{Sep 2019 - May 2021}
-      {Gizmo inc.}{Tokyo, Japan}
-      \begin{itemize}
-        \resumeItem{Created UI and business logic for logistics web application used by SoftBank with Vue.js.}
-        \resumeItem{Created UI and business logic for internet bank web application released by SONY with React.js.}
-        \resumeItem{Technically supported my coworkers.}
-      \end{itemize}
-      {Tech Stack: react.js, redux, react-redux, reselect, styled-components, next.js, formik, yup, react-i18next, @adobe/target-react-component, axios, immer, ramda, redux-logger, redux-saga, typesafe-actions, dotenv-webpack, prism, jest, eslint, yarn, git, gitlab, aws, codecommit, sourcetree, slack, adobe xd, vue.js, vue router, vuex, vuetify, axios, joi, lodash, veeValidate, github}
+\subsection*{Frontend Developer – GIZMO INC. - Tokyo, Japan}
+\textit{Sep 2019 - May 2021}
+\begin{itemize}[leftmargin=*, itemsep=0pt]
+    \item Created UI and business logic for logistics web application used by SoftBank with Vue.js.
+    \item Created UI and business logic for internet bank web application released by SONY with React.js.
+    \item Supported the team in troubleshooting during the development cycle, to guarantee efficiency and good workflow.
+\end{itemize}
+Tech stack: React.js, Redux, React-Redux, Reselect, Styled-Components, Next.js, Formik, Yup, React-i18next, @Adobe/Target-React-Component, Axios, Immer, Ramda, Redux-Logger, Redux-Saga, Typesafe-Actions, Dotenv-Webpack, Prism, Jest, ESLint, Yarn, Git, GitLab, AWS CodeCommit, Sourcetree, Slack, Adobe XD, Vue.js, Vue-Router, Vuex, Vuetify, Axios, Joi, Lodash, VeeValidate, GitHub
 
-  \resumeSubHeadingListEnd
+\section*{Education}
 
- %-----------Education-----------
-\section{Education}
- \begin{itemize}[leftmargin=0.15in, label={}]
-    \small{\item{
-     \textbf{Bachelor of engineering}{: Takushoku University, Tokyo, Japan (Apr 2015 - Mar 2019)} \\
-     \textbf{Web development diploma}{: Cornerstone International College, Vancouver (May 2024 - Apr 2026)} \\
-    }}
- \end{itemize}
+\subsection*{Bachelor of Engineering | Takushoku University, Tokyo, Japan}
+\textit{Apr 2015 - Mar 2019}
 
- %-----------LANGUAGES-----------
-\section{LANGUAGES}
- \begin{itemize}[leftmargin=0.15in, label={}]
-    \small{\item{
-     \textbf{English - Upper-intermediate} \\
-     \textbf{Japanese - Native} \\
-    }}
- \end{itemize}
+\subsection*{Web Development Diploma | Cornerstone International College, Vancouver, Canada}
+\textit{May 2024 - Apr 2026}
 
-
-%-------------------------------------------
 \end{document}
