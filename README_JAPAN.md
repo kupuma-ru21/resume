@@ -9,9 +9,20 @@
 
 ソフトウェアエンジニアとして 4 年間の経験があります。
 フロントエンドにおいては、React Sever Component周りの知見について深めていきたいです。
-また、インフラ周りに興味を持っており、現在AWSを使って[WordPressサイト](http://aws-and-infra-kupu.com/)の配信を試したりしてます。
 
 ## 職務経歴
+
+### フロントエンド エンジニア
+
+#### 株式会社Sorajima | 2024 年 7 月 - 現在 | バンクーバー, カナダ (リモート)
+
+- パフォーマンス改善
+- RSCを使用したUI設計
+- 新規プロジェクトの設計
+
+##### 使用技術
+
+react.js, next.js, storybook, graphql, graphql-codegen, apollo/client, material-ui, react-hook-form, zod, vitest, esLint, prettier, pnpm, git, slack, jira, figma, golang, sqlboiler
 
 ### フロントエンド エンジニア
 
