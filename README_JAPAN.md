@@ -5,11 +5,6 @@
 - GitHub: [https://github.com/kupuma-ru21](https://github.com/kupuma-ru21)
 - LinkedIn: [https://www.linkedin.com/in/koichi-kimura-06ba14259/](https://www.linkedin.com/in/koichi-kimura-06ba14259/)
 
-## プロフィール
-
-ソフトウェアエンジニアとして 4 年間の経験があります。
-フロントエンドにおいては、React Sever Component周りの知見について深めていきたいです。
-
 ## 職務経歴
 
 ### フロントエンド エンジニア
@@ -22,7 +17,7 @@
 
 ##### 使用技術
 
-react.js, next.js, storybook, graphql, graphql-codegen, apollo/client, material-ui, react-hook-form, zod, vitest, esLint, prettier, pnpm, git, slack, jira, figma, golang, sqlboiler
+react.js, next.js, remix, graphql, graphql-codegen, apollo/client, urql, chakra-ui, vitest, esLint, prettier, pnpm, yarn, git, slack, jira, figma
 
 ### フロントエンド エンジニア
 
