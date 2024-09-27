@@ -19,18 +19,6 @@
 
 react.js, next.js, remix, graphql, graphql-codegen, apollo/client, urql, chakra-ui, vitest, esLint, prettier, pnpm, yarn, git, slack, jira, figma
 
-### フロントエンド エンジニア
-
-#### Buysell Technologies | 2023 年 2 月 - 2023 年 12 月 | 東京, 日本 (リモート)
-
-- ライブラリを選択・導入
-- Sentry から通知されるエラーを確認・修正
-- Golang で GraphQL のリゾルバーを作成
-
-##### 使用技術
-
-react.js, next.js, storybook, graphql, graphql-codegen, apollo/client, material-ui, react-hook-form, zod, vitest, esLint, prettier, pnpm, git, slack, jira, figma, golang, sqlboiler
-
 ---
 
 ### フロントエンド・バックエンド エンジニア
